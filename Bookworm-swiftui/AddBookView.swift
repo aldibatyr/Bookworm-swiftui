@@ -17,6 +17,13 @@ struct AddBookView: View {
     @State private var genre = ""
     @State private var review = ""
     
+    var genreSelected: Bool {
+        if genre == "" {
+            return false
+        }
+        return true
+    }
+    
     let genres = ["Fantasy", "Thriller", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
     
     var body: some View {
@@ -43,6 +50,7 @@ struct AddBookView: View {
                         newBook.rating = Int16(self.rating)
                         newBook.genre = self.genre
                         newBook.review = self.review
+                        newBook.date = Date()
                         
                         try? self.moc.save()
                         self.presentationMode.wrappedValue.dismiss()
@@ -50,6 +58,7 @@ struct AddBookView: View {
                         Text("Save")
                     }
                 }
+            .disabled(!genreSelected)
             }.navigationBarTitle("Add Book")
         }
     }
