@@ -10,10 +10,12 @@
 		A49801F42488902D00294BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49801F32488902D00294BF1 /* AppDelegate.swift */; };
 		A49801F62488902D00294BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49801F52488902D00294BF1 /* SceneDelegate.swift */; };
 		A49801F92488902E00294BF1 /* Bookworm_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49801F72488902E00294BF1 /* Bookworm_swiftui.xcdatamodeld */; };
-		A49801FB2488902E00294BF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49801FA2488902E00294BF1 /* ContentView.swift */; };
+		A49801FB2488902E00294BF1 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49801FA2488902E00294BF1 /* Overview.swift */; };
 		A49801FD2488903A00294BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49801FC2488903A00294BF1 /* Assets.xcassets */; };
 		A49802002488903A00294BF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49801FF2488903A00294BF1 /* Preview Assets.xcassets */; };
 		A49802032488903A00294BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49802012488903A00294BF1 /* LaunchScreen.storyboard */; };
+		A4C287012488A617003147CE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C287002488A617003147CE /* AddBookView.swift */; };
+		A4C287032488A7F5003147CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C287022488A7F5003147CE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +23,13 @@
 		A49801F32488902D00294BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A49801F52488902D00294BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A49801F82488902E00294BF1 /* Bookworm_swiftui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm_swiftui.xcdatamodel; sourceTree = "<group>"; };
-		A49801FA2488902E00294BF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A49801FA2488902E00294BF1 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
 		A49801FC2488903A00294BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49801FF2488903A00294BF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A49802022488903A00294BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A49802042488903A00294BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C287002488A617003147CE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		A4C287022488A7F5003147CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,13 @@
 			children = (
 				A49801F32488902D00294BF1 /* AppDelegate.swift */,
 				A49801F52488902D00294BF1 /* SceneDelegate.swift */,
-				A49801FA2488902E00294BF1 /* ContentView.swift */,
+				A49801FA2488902E00294BF1 /* Overview.swift */,
 				A49801FC2488903A00294BF1 /* Assets.xcassets */,
 				A49802012488903A00294BF1 /* LaunchScreen.storyboard */,
 				A49802042488903A00294BF1 /* Info.plist */,
 				A49801F72488902E00294BF1 /* Bookworm_swiftui.xcdatamodeld */,
+				A4C287002488A617003147CE /* AddBookView.swift */,
+				A4C287022488A7F5003147CE /* ContentView.swift */,
 				A49801FE2488903A00294BF1 /* Preview Content */,
 			);
 			path = "Bookworm-swiftui";
@@ -151,8 +157,10 @@
 			files = (
 				A49801F42488902D00294BF1 /* AppDelegate.swift in Sources */,
 				A49801F92488902E00294BF1 /* Bookworm_swiftui.xcdatamodeld in Sources */,
-				A49801FB2488902E00294BF1 /* ContentView.swift in Sources */,
+				A4C287032488A7F5003147CE /* ContentView.swift in Sources */,
+				A49801FB2488902E00294BF1 /* Overview.swift in Sources */,
 				A49801F62488902D00294BF1 /* SceneDelegate.swift in Sources */,
+				A4C287012488A617003147CE /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
